@@ -1,0 +1,67 @@
+section{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#image1{
+    grid-column: 1;
+    grid-row: 1;
+}
+#image2{
+   grid-row-start: 1;
+   grid-row-end: 3;   
+   grid-column-start: 2;
+   grid-column-end: 4;
+}
+#image3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#image4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#image5{
+    grid-column: 2;
+    grid-row: 3;
+}
+#image6{
+    grid-column-start:3 ;
+    grid-column-end: 5;
+}
+#image7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end: 6;
+}
+#image8{
+    grid-row-start:4;
+    grid-row-end:6;
+}
+#image9{
+    grid-column:4;
+    grid-row:4;
+}
+#image10{
+    grid-column:4;
+    grid-row:5;
+}
+#image11{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#image12{
+    grid-column:3;
+    grid-row:6;
+}
+#image13{
+    grid-column:4;
+    grid-row:6;
+}
